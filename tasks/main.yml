@@ -8,7 +8,7 @@
 - name: CNI | Download binaries
   unarchive:
     src: "{{ cni_release_url }}"
-    dest: "{{ cni_bin_dir}}"
+    dest: "{{ cni_bin_dir }}"
     remote_src: yes
 
 - name: CNI | Download CNI plugins binaries
