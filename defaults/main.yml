@@ -3,7 +3,7 @@ cni_bin_dir: /opt/cni/bin
 cni_conf_dir: /etc/cni/net.d
 
 cni_version: v0.6.0
-cni_release_url: https://github.com/containernetworking/cni/releases/download/{{ cni_version }}/cni-amd64-linux-{{ cni_version }}.tgz
+cni_release_url: https://github.com/containernetworking/cni/releases/download/{{ cni_version }}/cni-amd64-{{ cni_version }}.tgz
 
 cni_plugins_version: v0.8.0
-cni_plugins_release_url: https://github.com/containernetworking/plugins/releases/download/{{ cni_plugins_version }}/cni-plugins-amd64-{{ cni_plugins_version }}.tgz
+cni_plugins_release_url: https://github.com/containernetworking/plugins/releases/download/{{ cni_plugins_version }}/cni-plugins-linux-amd64-{{ cni_plugins_version }}.tgz
