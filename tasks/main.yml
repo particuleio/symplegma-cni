@@ -1,6 +1,8 @@
 ---
 - name: CNI | Ensure CNI directories exist
-  file: path={{ item }} state=directory
+  file:
+    path: "{{ item }}"
+    state: directory
   with_items:
     - "{{ cni_bin_dir }}"
     - "{{ cni_conf_dir }}"
@@ -9,4 +11,4 @@
   unarchive:
     src: "{{ cni_plugins_release_url }}"
     dest: "{{ cni_bin_dir }}"
-    remote_src: yes
+    remote_src: true
