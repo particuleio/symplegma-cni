@@ -3,6 +3,7 @@
   file:
     path: "{{ item }}"
     state: directory
+    mode: 'u+rw,g+r,o+r'
   with_items:
     - "{{ cni_bin_dir }}"
     - "{{ cni_conf_dir }}"
