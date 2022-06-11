@@ -2,8 +2,8 @@
 galaxy_info:
   author: ArchiFleKs
   description: Ansible role to bootstrap CNI
-  company: clusterfraks-dynamics
-  role_name: symplegma-cni
+  company: particule
+  role_name: symplegma_cni
   namespace: particule
   platforms:
     - name: GenericLinux
